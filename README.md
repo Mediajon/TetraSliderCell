@@ -1,0 +1,4 @@
+TetraSliderCell
+===============
+
+Custom NSSlider Cell
