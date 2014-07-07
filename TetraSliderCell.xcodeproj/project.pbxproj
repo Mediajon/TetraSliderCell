@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D98D10F19349A6F00845F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98D10C19349A6F00845F7A /* AppDelegate.m */; };
+		7D98D11019349A6F00845F7A /* TetraSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98D10E19349A6F00845F7A /* TetraSliderCell.m */; };
+		7D98D11419349A8100845F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D98D11119349A8100845F7A /* main.m */; };
+		7D98D11819349AA700845F7A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D98D11619349AA700845F7A /* MainMenu.xib */; };
+		7D98D11D19349AC900845F7A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D98D11919349AC900845F7A /* Credits.rtf */; };
+		7D98D11E19349AC900845F7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D98D11B19349AC900845F7A /* InfoPlist.strings */; };
+		A19F56E914D7F0E70093A431 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19F56E814D7F0E70093A431 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D98D10B19349A6F00845F7A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TetraSliderCell/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7D98D10C19349A6F00845F7A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TetraSliderCell/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7D98D10D19349A6F00845F7A /* TetraSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TetraSliderCell.h; path = TetraSliderCell/TetraSliderCell.h; sourceTree = SOURCE_ROOT; };
+		7D98D10E19349A6F00845F7A /* TetraSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TetraSliderCell.m; path = TetraSliderCell/TetraSliderCell.m; sourceTree = SOURCE_ROOT; };
+		7D98D11119349A8100845F7A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TetraSliderCell/main.m; sourceTree = SOURCE_ROOT; };
+		7D98D11219349A8100845F7A /* TetraSliderCell-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TetraSliderCell-Info.plist"; path = "TetraSliderCell/TetraSliderCell-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7D98D11719349AA700845F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TetraSliderCell/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		7D98D11A19349AC900845F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = TetraSliderCell/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		7D98D11C19349AC900845F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = TetraSliderCell/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		7D98D11F19349BAC00845F7A /* TetraSliderCell-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TetraSliderCell-Prefix.pch"; path = "TetraSliderCell/TetraSliderCell-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A19F56E414D7F0E70093A431 /* TetraSliderCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetraSliderCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19F56E814D7F0E70093A431 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A19F56EB14D7F0E70093A431 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A19F56EC14D7F0E70093A431 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A19F56ED14D7F0E70093A431 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19F56E114D7F0E70093A431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F56E914D7F0E70093A431 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19F56D914D7F0E70093A431 = {
+			isa = PBXGroup;
+			children = (
+				A19F56EE14D7F0E70093A431 /* TetraSliderCell */,
+				A19F56E714D7F0E70093A431 /* Frameworks */,
+				A19F56E514D7F0E70093A431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19F56E514D7F0E70093A431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56E414D7F0E70093A431 /* TetraSliderCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19F56E714D7F0E70093A431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56E814D7F0E70093A431 /* Cocoa.framework */,
+				A19F56EA14D7F0E70093A431 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19F56EA14D7F0E70093A431 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56EB14D7F0E70093A431 /* AppKit.framework */,
+				A19F56EC14D7F0E70093A431 /* CoreData.framework */,
+				A19F56ED14D7F0E70093A431 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A19F56EE14D7F0E70093A431 /* TetraSliderCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D98D11619349AA700845F7A /* MainMenu.xib */,
+				7D98D10B19349A6F00845F7A /* AppDelegate.h */,
+				7D98D10C19349A6F00845F7A /* AppDelegate.m */,
+				7D98D10D19349A6F00845F7A /* TetraSliderCell.h */,
+				7D98D10E19349A6F00845F7A /* TetraSliderCell.m */,
+				A19F56EF14D7F0E70093A431 /* Supporting Files */,
+			);
+			name = TetraSliderCell;
+			path = CustomSliderCellExample;
+			sourceTree = "<group>";
+		};
+		A19F56EF14D7F0E70093A431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D98D11F19349BAC00845F7A /* TetraSliderCell-Prefix.pch */,
+				7D98D11919349AC900845F7A /* Credits.rtf */,
+				7D98D11B19349AC900845F7A /* InfoPlist.strings */,
+				7D98D11119349A8100845F7A /* main.m */,
+				7D98D11219349A8100845F7A /* TetraSliderCell-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19F56E314D7F0E70093A431 /* TetraSliderCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19F570214D7F0E70093A431 /* Build configuration list for PBXNativeTarget "TetraSliderCell" */;
+			buildPhases = (
+				A19F56E014D7F0E70093A431 /* Sources */,
+				A19F56E114D7F0E70093A431 /* Frameworks */,
+				A19F56E214D7F0E70093A431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetraSliderCell;
+			productName = CustomSliderCellExample;
+			productReference = A19F56E414D7F0E70093A431 /* TetraSliderCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19F56DB14D7F0E70093A431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A19F56DE14D7F0E70093A431 /* Build configuration list for PBXProject "TetraSliderCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A19F56D914D7F0E70093A431;
+			productRefGroup = A19F56E514D7F0E70093A431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19F56E314D7F0E70093A431 /* TetraSliderCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19F56E214D7F0E70093A431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D98D11E19349AC900845F7A /* InfoPlist.strings in Resources */,
+				7D98D11D19349AC900845F7A /* Credits.rtf in Resources */,
+				7D98D11819349AA700845F7A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19F56E014D7F0E70093A431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D98D11019349A6F00845F7A /* TetraSliderCell.m in Sources */,
+				7D98D10F19349A6F00845F7A /* AppDelegate.m in Sources */,
+				7D98D11419349A8100845F7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D98D11619349AA700845F7A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D98D11719349AA700845F7A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7D98D11919349AC900845F7A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D98D11A19349AC900845F7A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7D98D11B19349AC900845F7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D98D11C19349AC900845F7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19F570014D7F0E70093A431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A19F570114D7F0E70093A431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A19F570314D7F0E70093A431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TetraSliderCell/TetraSliderCell-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TetraSliderCell/TetraSliderCell-Info.plist";
+				PRODUCT_NAME = TetraSliderCell;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A19F570414D7F0E70093A431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TetraSliderCell/TetraSliderCell-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "$(SRCROOT)/TetraSliderCell/TetraSliderCell-Info.plist";
+				PRODUCT_NAME = TetraSliderCell;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19F56DE14D7F0E70093A431 /* Build configuration list for PBXProject "TetraSliderCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19F570014D7F0E70093A431 /* Debug */,
+				A19F570114D7F0E70093A431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19F570214D7F0E70093A431 /* Build configuration list for PBXNativeTarget "TetraSliderCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19F570314D7F0E70093A431 /* Debug */,
+				A19F570414D7F0E70093A431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19F56DB14D7F0E70093A431 /* Project object */;
+}
